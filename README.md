@@ -29,6 +29,24 @@ Real Payment Finality. APIs and compatibility guarantees may change.
 - `openclaw-example` — OpenClaw plugin installation and connection.
 - `hermes-example` — Hermes plugin identity and Capability binding.
 
+## Install
+
+TypeScript examples depend only on the public package:
+
+```bash
+npm install
+```
+
+Python examples use the public distribution:
+
+```bash
+python -m pip install aep-ai-sdk
+```
+
+Obtain `AEP_API_KEY` through the
+[Preview credential issuance process](https://aepai.org/developers/access).
+There is no public Developer Console.
+
 Examples use placeholder endpoints and environment-based credentials. They are
 developer references, not hosted runtimes or production services.
 

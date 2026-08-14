@@ -1,6 +1,6 @@
 import { readFile } from "node:fs/promises";
 
-import { AEPClient } from "../../packages/sdk/dist/index.js";
+import { AEPClient } from "@aepai/sdk";
 
 const apiKey = process.env.AEP_API_KEY;
 const capabilityIds = (process.env.AEP_CAPABILITY_IDS ?? "")

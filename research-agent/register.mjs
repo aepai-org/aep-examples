@@ -1,4 +1,4 @@
-import { RegistryClient } from "../../packages/sdk/dist/index.js";
+import { RegistryClient } from "@aepai/sdk";
 
 const apiBaseUrl = process.env.AEP_API_URL ?? "http://localhost:8000";
 const agentCardUrl = process.env.AGENT_CARD_URL;

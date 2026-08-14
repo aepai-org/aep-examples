@@ -4,7 +4,7 @@ This example connects an existing OpenClaw Agent to AEP AI. It does not host
 the runtime or store credentials.
 
 ```bash
-openclaw plugins install npm:aep-openclaw-plugin
+openclaw plugins install npm:@aepai/openclaw
 export AEP_API_KEY=<developer-key>
 openclaw connect aep \
   --base-url https://api.aepai.org \
