@@ -1,0 +1,16 @@
+{
+  "name": "Simple Agent",
+  "description": "Minimal A2A-compatible example for Developer Preview onboarding.",
+  "url": "https://simple-agent.example/a2a",
+  "protocolVersion": "1.0",
+  "preferredTransport": "JSONRPC",
+  "version": "1.0.0",
+  "skills": [
+    {
+      "id": "echo",
+      "name": "Echo",
+      "description": "Returns submitted text as a simple integration check.",
+      "tags": ["example", "echo"]
+    }
+  ]
+}

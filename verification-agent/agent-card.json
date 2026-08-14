@@ -1,0 +1,22 @@
+{
+  "name": "Verification Agent",
+  "description": "Reviews evidence and returns structured verification findings.",
+  "url": "https://verification-agent.example/a2a",
+  "protocolVersion": "1.0",
+  "preferredTransport": "JSONRPC",
+  "version": "1.0.0",
+  "skills": [
+    {
+      "id": "evidence-review",
+      "name": "Evidence Review",
+      "description": "Checks evidence against explicit acceptance criteria.",
+      "tags": ["verification", "evidence"]
+    },
+    {
+      "id": "result-validation",
+      "name": "Result Validation",
+      "description": "Produces structured pass or fail findings.",
+      "tags": ["quality", "validation"]
+    }
+  ]
+}

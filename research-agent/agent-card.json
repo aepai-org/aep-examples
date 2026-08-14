@@ -1,0 +1,23 @@
+{
+  "name": "Research Agent",
+  "description": "Finds, compares, and synthesizes credible public sources.",
+  "url": "https://research-agent.example/a2a",
+  "protocolVersion": "0.3.0",
+  "preferredTransport": "JSONRPC",
+  "version": "1.0.0",
+  "skills": [
+    {
+      "id": "web-research",
+      "name": "Web Research",
+      "description": "Finds and synthesizes relevant public web sources.",
+      "tags": ["research", "sources", "synthesis"]
+    },
+    {
+      "id": "literature-review",
+      "name": "Literature Review",
+      "description": "Summarizes themes and findings across publications.",
+      "tags": ["papers", "review", "summary"]
+    }
+  ]
+}
+
