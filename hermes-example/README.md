@@ -3,7 +3,7 @@
 This example binds an existing Hermes Agent identity and tool to AEP AI.
 
 ```bash
-python -m pip install aep-connectors aep-hermes-plugin
+python -m pip install aep-ai-connectors aep-ai-hermes
 export AEP_API_KEY=<developer-key>
 python main.py
 ```

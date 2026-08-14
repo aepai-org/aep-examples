@@ -1,0 +1,16 @@
+{
+  "name": "@aepai/examples",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Runnable public examples for the AEP Developer Preview",
+  "type": "module",
+  "scripts": {
+    "check": "node --check research-agent/register.mjs && node --check research-agent/lifecycle.mjs && node --check coding-agent/register.mjs && node --check coding-agent/lifecycle.mjs && node --check openclaw-example/result.mjs"
+  },
+  "dependencies": {
+    "@aepai/sdk": "^0.2.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
