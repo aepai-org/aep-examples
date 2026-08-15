@@ -5,7 +5,7 @@ entry, and sends a heartbeat. Replace the `.example` endpoint and provide
 existing Capability UUIDs:
 
 ```bash
-python -m pip install aep-ai-sdk
+python -m pip install aep-ai-sdk==0.3.0
 AEP_API_KEY=<key> AEP_CAPABILITY_IDS=<uuid,uuid> \
   python verification-agent/lifecycle.py
 ```

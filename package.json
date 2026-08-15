@@ -8,7 +8,7 @@
     "check": "node --check research-agent/register.mjs && node --check research-agent/lifecycle.mjs && node --check coding-agent/register.mjs && node --check coding-agent/lifecycle.mjs && node --check openclaw-example/result.mjs"
   },
   "dependencies": {
-    "@aepai/sdk": "^0.2.0"
+    "@aepai/sdk": "0.3.0"
   },
   "engines": {
     "node": ">=20.0.0"
